@@ -1,10 +1,8 @@
 # EEG_NIRS_BCI
 
-This was an early attempt at a multimodal BCI using EEG, tEEG, and NIRS signals to control a robotic hand. I barely know how to program at this point, so the code is pretty bad. 
+This was an early attempt at a multimodal BCI using EEG, tEEG, and NIRS signals to control a robotic hand. I barely knew how to program at this point, so the code is really bad. This was completed as part of an internship at the University of Freiburg Hospital Department of Neurosurgery and Neuroelectronic Systems in Freiburg, Germany (https://www.uniklinik-freiburg.de/nes-en.html). 
 
-Matthew McCann
-July 2015
-
+-- Old ReadMe --
 To successfully perform offline analysis and control the robotic hand using the BCI, the following instructions must be followed. 
 
 1) Run runEEGlab.m to preprocesses offline EEG data. Make sure the directory for the files of interest is correctly entered. Notice that subj and subjnum are both variables included in the script. These are used to allow the user to simply give the initials of the subject and the dataset number for the script to locate for preprocessing. On lines 61-68, a switch structure is used to differentiate between EEG and tEEG data. The user is asked to specify which type of data is of interest.
